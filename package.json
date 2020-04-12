@@ -1,9 +1,10 @@
 {
   "name": "@cohubinc/blueprint",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Layout components from Cohub",
   "author": "Cohub",
   "main": "build/index.js",
+  "types": "build/index.d.ts",
   "module": "build/index.es.js",
   "jsnext:main": "build/index.es.js",
   "scripts": {
@@ -58,5 +59,9 @@
   "peerDependencies": {
     "react": "^16",
     "react-dom": "^16"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cohubinc/blueprint.git"
   }
 }
