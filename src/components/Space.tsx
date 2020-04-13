@@ -19,17 +19,19 @@ export interface ISpaceProps {
     | "vmin"
     | "vmax"
     | "%";
+  reveal?: boolean;
 }
 
 export default function Space({
   height = "inherit",
   width = "inherit",
   unit = "rem",
+  reveal = false,
 }: ISpaceProps) {
   return (
     <div
       style={{
-        backgroundColor: "transparent",
+        backgroundColor: reveal ? "black" : "transparent",
         height: `${height}${unit}`,
         width: `${width}${unit}`,
       }}

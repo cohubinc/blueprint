@@ -1,6 +1,6 @@
 # Blueprint
 
-Blueprint is a small set of React components for quickly laying out groups of elements.
+Blueprint is a small set of typed React components for quickly laying out groups of elements.
 
 ## Installation
 
@@ -110,8 +110,9 @@ width?: CSSProperties["width"];
 unit?: | "cm" | "mm" | "in" | "px" | "pt" | "pc" | "em" | "rem" | "ex" | "ch" | "vw" | "vh" | "vmin" | "vmax" | "%";
 ```
 
-| Prop   |             Description             | Required |   Default |
-| ------ | :---------------------------------: | -------: | --------: |
-| height |     the height of the `<Space>`     |     true | "inherit" |
-| width  |     the width of the `<Space>`      |    false | "inherit" |
-| unit   | the unit value for height and width |    false |     "rem" |
+| Prop   |                                           Description                                           | Required |   Default |
+| ------ | :---------------------------------------------------------------------------------------------: | -------: | --------: |
+| height |                                   the height of the `<Space>`                                   |     true | "inherit" |
+| width  |                                   the width of the `<Space>`                                    |    false | "inherit" |
+| unit   |                               the unit value for height and width                               |    false |     "rem" |
+| reveal | show the space by setting its background color to black (really only useful during development) |    false |     false |
