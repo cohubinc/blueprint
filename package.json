@@ -1,6 +1,6 @@
 {
   "name": "@cohubinc/blueprint",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Layout components from Cohub",
   "author": "Cohub",
   "main": "build/index.js",
