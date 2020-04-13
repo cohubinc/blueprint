@@ -1,3 +1,4 @@
+.npmrc
 node_modules
 node_modules/
 coverage/
@@ -6,5 +7,3 @@ coverage/
 
 src/.DS_Store
 build
-
-.npmrc
