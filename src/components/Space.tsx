@@ -1,9 +1,24 @@
-import React from "react";
+import React, { CSSProperties } from "react";
 
 export interface ISpaceProps {
-  height?: number | string;
-  width?: number | string;
-  unit?: string;
+  height?: CSSProperties["height"];
+  width?: CSSProperties["width"];
+  unit?:
+    | "cm"
+    | "mm"
+    | "in"
+    | "px"
+    | "pt"
+    | "pc"
+    | "em"
+    | "rem"
+    | "ex"
+    | "ch"
+    | "vw"
+    | "vh"
+    | "vmin"
+    | "vmax"
+    | "%";
 }
 
 export default function Space({
