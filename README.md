@@ -74,10 +74,6 @@ style?: CSSProperties;
 | itemAlignment |                     used to vertically align children of `<Inline>`                     |    false |  "left" |
 | style         |                    any additional style properties needed for Stack                     |    false |    null |
 
-`space` will be applied as rem based right or left margin (depending on what's specified for the `alignment` prop) on all child elements inside `Inline`.
-
-`itemAlignment` should be used to vertically align children. It uses `align-items` under the hood.
-
 ### Spread
 
 Use Spread to spread elements out either horizontally or vertically. Think of Spread as a normal CSS flexbox.
