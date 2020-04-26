@@ -25,6 +25,7 @@ export interface ISegmentProps {
    */
   bordered?: boolean;
   borderColor?: string;
+  fullWidth?: boolean;
 }
 
 export default function Segment(props: ISegmentProps) {
@@ -37,6 +38,7 @@ export default function Segment(props: ISegmentProps) {
     bordered,
     borderColor,
     elevation = "Primary",
+    fullWidth = true,
   } = props;
 
   const dpLevel: any = bordered ? "dp0" : `dp${elevation}`;
@@ -50,6 +52,7 @@ export default function Segment(props: ISegmentProps) {
         border: bordered ? borderColor : "",
         backgroundColor: backgroundColor,
         borderRadius: "10px",
+        width: fullWidth ? "100%" : "inherit",
         ...style,
       }}
     >
