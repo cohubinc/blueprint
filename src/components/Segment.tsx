@@ -37,7 +37,7 @@ export default function Segment(props: ISegmentProps) {
     padding = 2,
     bordered,
     borderColor,
-    elevation = "Primary",
+    elevation = 0,
     fullWidth = true,
   } = props;
 
