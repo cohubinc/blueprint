@@ -112,7 +112,7 @@ unit?: | "cm" | "mm" | "in" | "px" | "pt" | "pc" | "em" | "rem" | "ex" | "ch" | 
 
 | Prop   |                                           Description                                           | Required |   Default |
 | ------ | :---------------------------------------------------------------------------------------------: | -------: | --------: |
-| height |                                   the height of the `<Space>`                                   |     true | "inherit" |
+| height |                                   the height of the `<Space>`                                   |    false | "inherit" |
 | width  |                                   the width of the `<Space>`                                    |    false | "inherit" |
 | unit   |                               the unit value for height and width                               |    false |     "rem" |
 | reveal | show the space by setting its background color to black (really only useful during development) |    false |     false |
