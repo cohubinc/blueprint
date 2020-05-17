@@ -24,7 +24,7 @@ export default function Spread({
       case "around":
         return { justifyContent: "space-around" };
       case "evenly":
-        return { justifyContent: "space-evenly", color: "green" };
+        return { justifyContent: "space-evenly" };
       case "start":
         return { justifyContent: "flex-start" };
       case "end":
