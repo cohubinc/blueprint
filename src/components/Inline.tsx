@@ -69,13 +69,15 @@ export default function Inline({
 
   const spacedChildren = () => {
     if (Array.isArray(children)) {
-      return children.map((c, idx) => {
-        return (
-          <span key={idx} style={calculateMargin()}>
-            {c}
-          </span>
-        );
-      });
+      return children
+        .map((c, idx) => {
+          return (
+            <span key={idx} style={calculateMargin()}>
+              {c}
+            </span>
+          );
+        })
+        .filter(Boolean);
     } else {
       return <span style={calculateMargin()}>{children}</span>;
     }
