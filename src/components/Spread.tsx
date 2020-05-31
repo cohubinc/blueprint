@@ -1,7 +1,7 @@
-import React, { CSSProperties, Fragment, ReactNode } from "react";
+import React, { CSSProperties, Fragment, ReactNode, ReactElement } from "react";
 
 export interface ISpreadProps {
-  children: ReactNode[] | ReactNode;
+  children: ReactNode[] | ReactNode | ReactElement<any> | ReactElement<any>[];
   direction?: "horizontal" | "vertical";
   spread?: "between" | "around" | "evenly" | "start" | "end" | "center";
   itemAlignment?: "start" | "end" | "center" | "baseline" | "stretch";
